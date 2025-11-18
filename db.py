@@ -4,10 +4,10 @@ from encrypt import hash_password
 while True:
     try:
         conn = psycopg2.connect(
-            dbname="banco_barbalao",  
-            user="root",       
-            password="DdDLJr8BYykOf9hJL9TWXP2eDsF2A8S6",    
-            host="dpg-d42kp3i4d50c739qr750-a.oregon-postgres.render.com",            
+            dbname="db_barbalao",  
+            user="db_barbalao_user",       
+            password="p52cRwZPuSEv82ytEQ8BrNEH1LYv1BBS",    
+            host="dpg-d4dqbsa4d50c73bidqf0-a.oregon-postgres.render.com",
             port="5432"
         )
         cursor = conn.cursor()
